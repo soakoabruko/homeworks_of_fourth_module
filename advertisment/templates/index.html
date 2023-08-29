@@ -104,7 +104,7 @@
             {% if adv.image %}
             {{ adv.image.url }}
             {% else %}
-            {{ 'static/img/picture.png' }}
+            {% static 'img/picture.png' %}
             {% endif %}"
             class="img-fluid rounded-start" alt="Card title">
           </a>
